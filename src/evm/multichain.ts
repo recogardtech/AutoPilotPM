@@ -108,7 +108,7 @@ export const CHAINS: Record<string, ChainConfig> = {
     rpc: process.env.ROBINHOOD_RPC_URL || 'https://rpc.mainnet.chain.robinhood.com',
     rpcFallbacks: envRpcFallbacks('ROBINHOOD_RPC_FALLBACKS'),
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
-    explorer: 'https://robinscan.io',
+    explorer: 'https://robinhoodchain.blockscout.com',
     multicall: '0xcA11bde05977b3631167028862bE2a173976CA11',
   },
   avalanche: {
